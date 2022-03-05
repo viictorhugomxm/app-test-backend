@@ -11,7 +11,6 @@ conectarDB();
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-
 });
 
 //Arrancando servidor
